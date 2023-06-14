@@ -1,0 +1,7 @@
+echo "# gs4" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gsgs8/gs4.git
+git push -u origin main
